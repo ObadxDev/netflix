@@ -1,0 +1,160 @@
+*{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+p,h1,h6{
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.bg-images{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+
+.logo-img{
+    height: 50px;
+    width: 150px;
+}
+
+.main-titile{
+    margin-top: 180px;
+}
+
+.input{
+    background-color: transparent;
+    outline: none;
+}
+
+.red{
+    background-color: rgb(201, 0, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.spa{
+    margin: 100px;
+}
+
+.spa2{
+    border-bottom: 10px solid gray;
+}
+
+.one{
+    background-image:linear-gradient(transparent,black);
+}
+/* page2 */
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+video{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.tv-vids{
+    position: relative;
+    margin-bottom: 120px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-tv{
+    position: relative;
+    margin: 5px;
+}
+
+.video-tv{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 15%;
+    left: 16%;
+}
+
+.pg{
+    border-bottom: 10px solid gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dev-vids{
+    position: relative;
+    margin-bottom: 120px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-dev{
+    position: relative;
+}
+
+.video-dev{
+    top: 8%;
+    left: 19%;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+}
+
+/* accordian */
+
+.acc-style{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border: none;
+    padding:35px;
+    margin-bottom: 10px;
+}
+
+.acc-style2{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border: none;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+.acc-style:hover{
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border: none;
+}
+
+footer{
+    padding: 100px 20px;
+}
+
+.text{
+    color: rgb(201, 201, 201) !important;
+}
+
+
+
+@media (width <= 770px) {
+    h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .logo-img{
+        height: 30px;
+        width: 100px;
+    }
+}
